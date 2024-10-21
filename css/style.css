@@ -1,15 +1,3 @@
-@font-face {
-    font-family: 'aptos-light';
-    src: url('../fonte/aptos-light.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: 'aptos-bold';
-    src: url('../fonte/aptos-bold.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: 'aptos';
-    src: url('../fonte/aptos.ttf') format('truetype');
-  }
   @font-face {
     font-family: 'Roboto-Regular';
     src: url('../fonte/Roboto-Regular.ttf') format('truetype');
