@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'aptos-light';
+    src: url('../fonte/aptos-light.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'aptos-bold';
+    src: url('../fonte/aptos-bold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'aptos';
+    src: url('../fonte/aptos.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonte/Roboto-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Roboto-Thin';
+    src: url('../fonte/Roboto-Thin.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonte/Roboto-Bold.ttf') format('truetype');
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto-Regular';
+    background-color: #E5ECE9;
+}
+.menu{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-color: #E5ECE9;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 40px;
+}
+li{
+    display: inline-block;
+}
+li a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #00663a;
+}
+li a:hover{
+    border-top: 3px solid #00663a;
+}
+.selecionado{
+    border-top: 3px solid #00663a;
+}
+.titulo{
+    padding: 0;
+    margin: 0;
+    background-color: #00663a;
+    width: 100%;
+    height: 60px;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    color: #F3F7F0;
+    font-family: Roboto-Bold, sans-serif;
+    text-decoration: solid;
+    font-size: 30px;
+}
+.conteudo{
+    min-height: 600px;
+    background-color: aqua;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+    max-width: 1200px;
+    line-height: 1.5em;
+}
+p{
+    margin: 0;
+}
+.rodape{
+    background-color: #002C19;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.caixa{
+    padding-left: 10px;
+    padding-right: 10px; 
+    width: 250px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: 0 auto;
+       
+}
+.rodape p{
+    color: #F3F7F0;
+    font-family: Roboto-Thin, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.sgc{
+    background-color: #006539;
+    text-align: center;
+    height: 30px;
+
+
+}
+.sgc p{
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Roboto-Bold, sans-serif;
+    text-decoration: solid;
+    font-size: 20px;
+    color: #f3f7f0;
+
+}
